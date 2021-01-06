@@ -3,7 +3,7 @@ parameters:
   fetchDepth: 20
 
 steps:
-# Checkout from bundle
+# Checkout from bundle test
 - ${{ if eq(parameters.useBundle, true) }}:
   - checkout: none
 
